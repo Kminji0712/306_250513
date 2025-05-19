@@ -292,38 +292,21 @@
   }
   /* login page */
   .login {
-    background-color: #FFF;
     text-align: center;
-    padding: 100px 0;
-    height: 100vh;
+    padding:0;
   }
-
+  .login_box {
+    right: 50%; top: 50%;
+    transform: translate(50%, -40%);
+    width: 70%;
+  }
   .login-title {
-    font-size: 1.41rem !important;
+    font-size: 1.2rem !important;
   }
-
-  .login-form>input {
-    padding: 50px 30px;
-    font-size: 1rem !important;
-    border: none;
-    display: flex;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 50px;
-    border-radius: var(--border-radius);
+  .login-form > input {
+    font-size: 0.8rem !important;
   }
-
-  .login-form>button {
-    padding: 10px 30px;
-    border-radius: 50px;
-    font-size: 1rem;
-    background-color: var(--accent-b);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-
-  .login-form>button:hover {
-    background-color: var(--gray-90);
+  #login-error-msg {
+    font-size: 0.8rem !important;
   }
 }
